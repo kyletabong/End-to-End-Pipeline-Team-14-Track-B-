@@ -19,10 +19,10 @@ What economic trends were observed from 2000 to 2023 and how did changes in U.S.
 - [x] Environment set up
 - [x] Data pulled from FRED and World Bank APIs
 - [x] Raw CSVs saved
-- [ ] Data cleaning and merging
-- [ ] Correlation analysis
-- [ ] Visualizations
-- [ ] Quarto manuscript
+- [x] Data cleaning and merging
+- [x] Correlation analysis
+- [x] Visualizations
+- [x] Quarto manuscript
 
 ## How to Run
 1. Clone this repository
