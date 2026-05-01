@@ -44,19 +44,23 @@ pip install fredapi wbgapi pandas scipy scikit-learn matplotlib
 - scikit-learn
 - matplotlib
 - Quarto
-## File Structure
+## File and Folder Structure
 ```
 project/
 ├── README.md
-├── Track_B_Team_14_End_to_End_Pipeline.ipynb
+├── references.bib
 ├── data/
-│   ├── gdp_data.csv
 │   ├── cpi_data.csv
+│   ├── gdp_data.csv
 │   ├── trade_balance_data.csv
-│   ├── world_bank_trade.csv
+│   ├── world_bank_data.csv
 │   └── merged_macro_data.csv
-└── output/
-    └── manuscript.qmd
+├── notebooks/
+│   ├── data_ingestion.ipynb
+│   └── data_cleaning.ipynb
+└── manuscript/
+    ├── manuscript.qmd
+    └── manuscript.html
 ```
  
 ## Track
