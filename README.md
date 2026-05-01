@@ -48,19 +48,15 @@ pip install fredapi wbgapi pandas scipy scikit-learn matplotlib
 ```
 project/
 ├── README.md
-├── references.bib
-├── data/
-│   ├── cpi_data.csv
-│   ├── gdp_data.csv
-│   ├── trade_balance_data.csv
-│   ├── world_bank_data.csv
-│   └── merged_macro_data.csv
-├── notebooks/
-│   ├── data_ingestion.ipynb
-│   └── data_cleaning.ipynb
-└── manuscript/
-    ├── manuscript.qmd
-    └── manuscript.html
+├── manuscript.qmd
+├── manuscript.html
+├── data_ingestion_and_cleaning.ipynb
+└── data/
+    ├── cpi_data.csv
+    ├── gdp_data.csv
+    ├── trade_balance_data.csv
+    ├── world_bank_trade.csv
+    └── merged_macro_data.csv
 ```
  
 ## Track
